@@ -5,7 +5,15 @@
 	so : armeabi-v7a环境下的相关so
 	readme.txt
 
-使用说明：
+apk 使用说明：
+	1、安装apk
+	adb install app-debug.apk
+	2、放置测试文件
+	adb push */inceptionv1.nb  /storage/emulated/0/Android/data/com.jnitest/files/
+	adb push */224x224x3.jpeg  /storage/emulated/0/Android/data/com.jnitest/files/images
+
+
+Demo 使用说明：
 	安装APK后，直接点击start，demo运行并输出最后的分类结果。
 	主要的注意点如下：
 	1).nndemo.nn_model_init((mpath.getAbsolutePath()+File.separator+"inceptionv1.nb").getBytes(),TENSORFLOW);
