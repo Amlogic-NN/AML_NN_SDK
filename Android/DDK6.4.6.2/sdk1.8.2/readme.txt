@@ -14,6 +14,7 @@
 		b. 放置测试文件
 			adb push */inceptionv1.nb  /storage/emulated/0/Android/data/com.jnitest/files/
 			adb push */224x224x3.jpeg  /storage/emulated/0/Android/data/com.jnitest/files/images
+            注意：由于demo指定nb名称为inceptionv1.nb，push前需要将例如inceptionv1_99.nb改名为inceptionv1.nb
 	1.3 Demo 使用说明：
 		安装APK后，直接点击start，demo运行并输出最后的分类结果。
 
