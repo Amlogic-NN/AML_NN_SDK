@@ -10,6 +10,8 @@ Linux:
 
 Model: 包含DDK643之后版本的各平台nbg文件
 
+Tool: 包含后续开发的各工具
+
 README.md: readme文档
 
 
@@ -46,5 +48,5 @@ README.md: readme文档
 
    ​    其中6.4.4.3即为DDK版本
 
-
-
+3.当前AdlaInfo_Netron工具上传至Gitee
+   Link:https://gitee.com/aml_nn_team/aml_nn_sdk/tree/master/Tools
