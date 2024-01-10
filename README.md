@@ -47,6 +47,3 @@ README.md: readme文档
    ​        Galcore version 6.4.4.3.310723
 
    ​    其中6.4.4.3即为DDK版本
-
-3.当前AdlaInfo_Netron工具上传至Gitee
-   Link:https://gitee.com/aml_nn_team/aml_nn_sdk/tree/master/Tools
