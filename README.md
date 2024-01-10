@@ -49,4 +49,5 @@ README.md: readme文档
    ​    其中6.4.4.3即为DDK版本
 
 3.当前版本AdlaInfo_Netron上传位置如下,请使用以下链接下载使用:
-Link:https://gitee.com/aml_nn_team/adla_-info_-netron_-tool
+
+   Link:https://gitee.com/aml_nn_team/adla_-info_-netron_-tool
