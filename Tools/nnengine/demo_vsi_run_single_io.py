@@ -42,8 +42,9 @@ if __name__ == "__main__":
 
     amlnn.init()
 
-    # If it's a multi-input model, say there are 4 inputs, input0, input1, input2, input3, 
-    # then the inputs are given like this: input_data = np.concatenate((data0,data1,data2,data3))
+    # If it is a multi-input model, for example, there are 4 inputs: input0, input1, input2, input3, 
+    # then you need to reshape their dimensions into one dimension first, and splice them in sequence
+    # For example: input_data = np.concatenate((input0.reshape(-1),input1.reshape(-1),input2.reshape(-1),input3.reshape(-1)))
     input_data = get_image_do_preprocess('./dataset/input/224x224x3_fish.jpeg')
     amlnn.set_input(input_data)
 
